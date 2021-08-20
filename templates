@@ -1,3 +1,0 @@
-{% for laptop in laptops %}
-<p>{{laptop}}</p>
-{% endfor %}
