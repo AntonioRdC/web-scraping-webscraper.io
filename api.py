@@ -2,7 +2,7 @@ from selenium import webdriver
 
 
 def get_lenovo():
-    with webdriver.Edge('msedgedriver') as browser:
+    with webdriver.Firefox() as browser:
         browser.get(
             'https://webscraper.io/test-sites/e-commerce/allinone/computers/'
             'laptops')
